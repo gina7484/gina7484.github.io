@@ -17,7 +17,7 @@
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
     <script type="text/javascript">
-        document.oncontextmenu = function(){return false;}
+        document.oncontextmenu = function () { return false; }
     </script>
 </head>
 
@@ -48,13 +48,13 @@
                     <a class="nav-link js-scroll-trigger" href="#research-experience">Research Experience</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#awards">Honors & Scholarships</a>
+                    <a class="nav-link js-scroll-trigger" href="#awards">Scholarships</a>
                 </li>
-                <li class="nav-item">
+                <!--<li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#project-experience">Project Experience</a>
-                </li>
+                </li>-->
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#teaching-experience">Teaching Experience</a>
+                    <a class="nav-link js-scroll-trigger" href="#teaching-experience">Teaching</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#extracurricular">Extracurricular</a>
@@ -75,18 +75,22 @@
                     <i class="fas fa-envelope"></i> ginasohn@stanford.edu
                 </div>
                 <p class="lead mb-5">
-                    I am an Electrical Engineering PhD student at Stanford University advised by Professor <a href=https://engineering.stanford.edu/people/oyekunle-olukotun>Kunle Olukotun</a>. My area of
-                    interest lies in computer architecture, compilers, and programming models. Recently, I am working on a Domain-specific Architectures and Compilers for dataflow accelerators.
+                    I am an Electrical Engineering PhD student at Stanford University advised by Professor <a
+                        href=https://engineering.stanford.edu/people/oyekunle-olukotun>Kunle Olukotun</a>. My area of
+                    interest lies in computer architecture, compilers, and programming models. Recently, I am working on
+                    designing compilers and architectures for dataflow accelerators.
                     <br /><br />
 
-                    I received my B.S. from Seoul National University, where I was fortunate enough to be advised by Professor <a href=https://iamjaelee.github.io/www/ >Jae W. Lee</a> and <a href=https://scale.snu.ac.kr/members >Jung Ho Ahn</a> on designing hardware accelerators for domains such as Large Language Model training and Fully Homomorphic Encryption.
-                    <br/>
+                    I received my B.S. from Seoul National University, where I was fortunate enough to be advised by
+                    Professor <a href=https://iamjaelee.github.io/www />Jae W. Lee</a> and <a
+                        href=https://scale.snu.ac.kr/members>Jung Ho Ahn</a> on designing hardware accelerators for
+                    domains such as Large Language Model training and Fully Homomorphic Encryption.
+                    <br />
                 </p>
                 <div class="social-icons">
                     <a class="social-icon" href="https://www.linkedin.com/in/gina-sohn-b6b64a1b6/"><i
                             class="fab fa-linkedin-in"></i></a>
-                    <a class="social-icon"
-                        href="https://drive.google.com/file/d/12dVPkdDWuMMA-HQ49dPKdbuJGtZa87iA/view?usp=share_link">
+                    <a class="social-icon" href="assets/pdf/ginasohn_cv.pdf" target="_blank" rel="noopener noreferrer">
                         <div title="CV"><i class="far fa-file-alt"></i></div>
                     </a>
                 </div>
@@ -131,27 +135,76 @@
                     <div class="flex-grow-1">
                         <ul class="fa-ul mb-0">
                             <li>
-                                <h3 class="mb-0">ARK: Fully Homomorphic Encryption Accelerator with Runtime Data Generation and Inter-Operation Key Reuse</h3>
-                                <p class="mb-0">Jongmin Kim, Gwangho Lee, Sangpyo Kim, Gina Sohn, John Kim, Minsoo Rhu, Jung Ho Ahn</p>
+                                <h3 class="mb-0">Streaming Tensor Programs: A Streaming Abstraction for Dynamic
+                                    Parallelism</h3>
+                                <p class="mb-0"><u>Gina Sohn</u>, Genghan Zhang, Konstantin Hossfeld, Jungwoo Kim,
+                                    Nathan Sobotka, Nathan Zhang, Olivia Hsu, Kunle Olukotun</p>
                                 <div class="mb-2">
-                                    <a class="fw-bold" href="https://www.microarch.org/micro55/program/index.php">MICRO</a>,
+                                    <a class="fw-bold" href="https://www.arxiv.org/abs/2511.07776">ASPLOS</a>,
+                                    2026
+                                </div>
+                                <div class="d-inline-flex">
+                                    <a href="https://www.arxiv.org/abs/2511.07776">
+                                        <div>
+                                            <i class="fas fa-file-pdf"></i>
+                                            <span class="ms-1 me-4">Paper</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div>
+                                    <p><br /></p>
+                                </div>
+                            </li>
+                            <li>
+                                <h3 class="mb-0">The Dataflow Abstract Machine Simulator Framework</h3>
+                                <p class="mb-0">Nathan Zhang, Rubens Lacouture, <u>Gina Sohn</u>, Paul Mure, Qizheng
+                                    Zhang, Fredrik Kjolstad, Kunle Olukotun</p>
+                                <div class="mb-2">
+                                    <a class="fw-bold"
+                                        href="https://dl.acm.org/doi/10.1109/ISCA59077.2024.00046">ISCA</a>,
+                                    2024
+                                    <span class="ms-2"><i class="fas fa-trophy text-warning"></i> Distinguished Artifact
+                                        Award</span>
+                                </div>
+                                <div class="d-inline-flex">
+                                    <a href="https://dl.acm.org/doi/pdf/10.1109/ISCA59077.2024.00046">
+                                        <div>
+                                            <i class="fas fa-file-pdf"></i>
+                                            <span class="ms-1 me-4">Paper</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div>
+                                    <p><br /></p>
+                                </div>
+                            </li>
+                            <li>
+                                <h3 class="mb-0">ARK: Fully Homomorphic Encryption Accelerator with Runtime Data
+                                    Generation and Inter-Operation Key Reuse</h3>
+                                <p class="mb-0">Jongmin Kim, Gwangho Lee, Sangpyo Kim, <u>Gina Sohn</u>, John Kim,
+                                    Minsoo Rhu, Jung Ho Ahn</p>
+                                <div class="mb-2">
+                                    <a class="fw-bold"
+                                        href="https://www.microarch.org/micro55/program/index.php">MICRO</a>,
                                     2022
                                 </div>
                                 <div class="d-inline-flex">
                                     <a href="https://arxiv.org/pdf/2205.00922.pdf">
                                         <div>
                                             <i class="fas fa-file-pdf"></i>
-                                            <span class="ms-1 me-4">PDF</span>
+                                            <span class="ms-1 me-4">Paper</span>
                                         </div>
                                     </a>
                                 </div>
-                                <div><p><br/></p></div>
+                                <div>
+                                    <p><br /></p>
+                                </div>
                             </li>
                             <li>
                                 <h3 class="mb-0">Behemoth: A Flash-centric Training Accelerator for
                                     Extreme-scale
                                     DNNs</h3>
-                                <p class="mb-0">Shine Kim, Yunho Jin, Gina Sohn, Jonghyun Bae, Tae Jun
+                                <p class="mb-0">Shine Kim, Yunho Jin, <u>Gina Sohn</u>, Jonghyun Bae, Tae Jun
                                     Ham, Jae W. Lee.</p>
                                 <div class="mb-2">
                                     <a class="fw-bold" href="https://www.usenix.org/conference/fast21">FAST</a>,
@@ -161,7 +214,7 @@
                                     <a href="https://www.usenix.org/system/files/fast21-kim.pdf">
                                         <div>
                                             <i class="fas fa-file-pdf"></i>
-                                            <span class="ms-1 me-4">PDF</span>
+                                            <span class="ms-1 me-4">Paper</span>
                                         </div>
                                     </a>
                                     <a
@@ -187,59 +240,51 @@
                 <h2 class="mb-5">Research Experience</h2>
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
-                        <h3 class="mb-0"><a href="https://arc.snu.ac.kr/">Architecture and Code Optimization Lab</a>
-                        </h3>
-                        <h4 class="mb-0 fst-italic fs-5 fw-normal">Samsung-SNU Cooperation R&D Center, Seoul National
-                            University
-                        </h4>
-                        <div class="subheading mb-2">Research Intern</div>
-                        <ul>
-                            <li>
-                                <p class="mb-1"><span class="fw-bold">Advisor: </span> Professor <a
-                                        href="https://iamjaelee.github.io/www/">Jae W. Lee</a></p>
-                            </li>
-                            <li>
-                                <p class="mb-1"><span class="fw-bold">Project Goal: </span> To overcome the memory
-                                    capacity problem in extreme-scale
-                                    Deep Neural Network training by using a custom hardware accelerator and
-                                    an efficient Flash-based memory system</p>
-                            </li>
-                            <li>
-                                <p class="mb-1"><span class="fw-bold">My Role: </span> workload analysis through
-                                    simulator (MAESTRO), memory access
-                                    pattern analysis, simulator integration, porting DNN models (Bert, Resnet,
-                                    GPT-3, T5)</p>
-                            </li>
-                        </ul>
+                        <h3 class="mb-0"><a href="https://ppl.stanford.edu/">Pervasive Parallelism Laboratory</a></h3>
+                        <h4 class="mb-0 fst-italic fs-5 fw-normal">Stanford University</h4>
+                        <p class="mb-1"><span class="fw-bold">Advisor: </span><a
+                                href="https://engineering.stanford.edu/people/oyekunle-olukotun">Kunle Olukotun</a></p>
                     </div>
                     <div class="flex-shrink-0">
-                        <span class="text-primary">Jul. 2020 — Sep. 2020</span><br />
-                        <span class="text-primary">Seoul, Republic of Korea</span>
+                        <span class="text-primary">Apr. 2023 – Present</span>
                     </div>
                 </div>
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
-                        <h3 class="mb-0"><a href="http://scale.snu.ac.kr/">SCALable Computer Architecture Lab</a>
-                        </h3>
-                        <h4 class="mb-0 fst-italic fs-5 fw-normal">Graduate School of Convergence Science and
-                            Technology, Seoul National
-                            University
-                        </h4>
-                        <div class="subheading mb-2">Research Intern</div>
-                        <ul>
-                            <li>
-                                <p class="mb-1"><span class="fw-bold">Advisor: </span> Professor <a
-                                        href="http://scale.snu.ac.kr/members">Jung Ho Ahn</a></p>
-                            </li>
-                            <li>
-                                <p class="mb-1"><span class="fw-bold">Research Topic: </span> Designing a Homomorphic
-                                    Encryption Accelerator</p>
-                            </li>
-                        </ul>
+                        <h3 class="mb-0"><a href="https://stanfordaccelerate.github.io/">Stanford Accelerate
+                                Laboratory</a></h3>
+                        <h4 class="mb-0 fst-italic fs-5 fw-normal">Stanford University</h4>
+                        <p class="mb-1"><span class="fw-bold">Advisor: </span><a
+                                href="https://priyanka-raina.github.io/">Priyanka Raina</a></p>
                     </div>
                     <div class="flex-shrink-0">
-                        <span class="text-primary">Jan. 2022 — Apr. 2022</span><br />
-                        <span class="text-primary">Seoul, Republic of Korea</span>
+                        <span class="text-primary">Jan. 2023 – Mar. 2023</span>
+                    </div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0"><a href="http://scale.snu.ac.kr/">SCALable Computer Architecture Laboratory</a>
+                        </h3>
+                        <h4 class="mb-0 fst-italic fs-5 fw-normal">Graduate School of Convergence Science and
+                            Technology, Seoul National University</h4>
+                        <p class="mb-1"><span class="fw-bold">Advisor: </span><a
+                                href="http://scale.snu.ac.kr/members">Jung Ho Ahn</a></p>
+                    </div>
+                    <div class="flex-shrink-0">
+                        <span class="text-primary">Jan. 2022 – Apr. 2022</span>
+                    </div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0"><a href="https://snu-arc.github.io/">Architecture and Code Optimization
+                                Laboratory</a></h3>
+                        <h4 class="mb-0 fst-italic fs-5 fw-normal">Samsung-SNU Cooperation R&D Center, Seoul National
+                            University</h4>
+                        <p class="mb-1"><span class="fw-bold">Advisor: </span><a
+                                href="https://iamjaelee.github.io/www/">Jae W. Lee</a></p>
+                    </div>
+                    <div class="flex-shrink-0">
+                        <span class="text-primary">Jul. 2020 – Sep. 2020</span>
                     </div>
                 </div>
             </div>
@@ -251,8 +296,17 @@
                 <h2 class="mb-5">Honors & Scholarships</h2>
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
+                        <h3 class="mb-1">Graduate Research Fellowship Program (NSF GRFP)</h3>
+                        <div class="subheading mb-2">National Science Foundation</div>
+                    </div>
+                    <div class="flex-shrink-0">
+                        <span class="text-primary">2025-2028</span>
+                    </div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
                         <h3 class="mb-1"><a href="https://vpge.stanford.edu/fellowships-funding/sgf">
-                                Stanford Graduate Fellowship (Burt and Deedee McMurtry Fellow) </a></h3>
+                                Stanford Graduate Fellowship (SGF) </a></h3>
                         <div class="subheading mb-2">Stanford University</div>
                     </div>
                     <div class="flex-shrink-0">
@@ -269,18 +323,15 @@
                         <span class="text-primary">2020-2021</span>
                     </div>
                 </div>
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <!--<div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
                         <h3 class="mb-1">Silver Prize at the Academic Festival of College of Liberal Studies</h3>
-                        <!--<div class="subheading mb-1 mt-sm-0">(Paper: Improving U-Net and U-Net Variants for
-                            CT
-                            Scan Organ Segmentation)</div>-->
                         <div class="subheading mb-2">Seoul National University</div>
                     </div>
                     <div class="flex-shrink-0">
                         <span class="text-primary">2021</span>
                     </div>
-                </div>
+                </div>-->
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
                         <h3 class="mb-1">Eminence Scholarship</h3>
@@ -293,6 +344,7 @@
             </div>
         </section>
         <hr class="m-0" />
+        <!-- Project Experience
         <section class="resume-section" id="project-experience">
             <div class="resume-section-content">
                 <h2 class="mb-5">Project Experience</h2>
@@ -329,37 +381,56 @@
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
                         <h3 class="mb-0">Location-based Restaurant Review Platform with Game Features</h3>
-                        <!--<div class="subheading mb-3">Student Researcher</div> -->
-                        <h4 class="mb-0 fst-italic fs-5 fw-normal">Seoul National
-                            University
+                        <div class="subheading mb-3">Student Researcher</div>
+        <h4 class="mb-0 fst-italic fs-5 fw-normal">Seoul National
+            University
+        </h4>
+        <ul>
+            <li>
+                <p class="mb-2">
+                    <span class="fw-bold">Project Goal: </span> Developing an energy-efficient android
+                    application that provides restaurant review service based on the user’s game level
+                    and location information
+                </p>
+                <a href="https://github.com/isutare412/MukGo">
+                    <div>
+                        <i class="fab fa-github fs-4"></i>
+                        <span class="ms-1">Code</span>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="flex-shrink-0">
+        <span class="text-primary">Sep. 2020 - Dec. 2020</span><br />
+        <span class="text-primary">Seoul, Republic of Korea</span>
+    </div>
+    </div>
+    </div>
+    </section>
+    -->
+        <!-- Teaching -->
+        <section class="resume-section" id="teaching-experience">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Teaching</h2>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Digital Systems Design Lab</h3>
+                        <h4 class="mb-0 fst-italic fs-5 fw-normal">Stanford University
                         </h4>
+                        <div class="subheading mb-2">Teaching Assistant</div>
                         <ul>
                             <li>
-                                <p class="mb-2">
-                                    <span class="fw-bold">Project Goal: </span> Developing an energy-efficient android
-                                    application that provides restaurant review service based on the user’s game level
-                                    and location information
-                                </p>
-                                <a href="https://github.com/isutare412/MukGo">
-                                    <div>
-                                        <i class="fab fa-github fs-4"></i>
-                                        <span class="ms-1">Code</span>
-                                    </div>
-                                </a>
+                                <p class="mb-1">Topics covered: Software / hardware design tradeoffs, Algorithm design
+                                    for pipelining and parallelism, System latency and throughput tradeoffs, FPGA
+                                    optimization techniques.</p>
                             </li>
                         </ul>
                     </div>
                     <div class="flex-shrink-0">
-                        <span class="text-primary">Sep. 2020 - Dec. 2020</span><br />
-                        <span class="text-primary">Seoul, Republic of Korea</span>
+                        <span class="text-primary">Apr. 2024 - Jun. 2024</span>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- Teaching Experience-->
-        <section class="resume-section" id="teaching-experience">
-            <div class="resume-section-content">
-                <h2 class="mb-5">Teaching Experience</h2>
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
                         <h3 class="mb-0">Computer Programming (M1522.000600)</h3>
@@ -390,6 +461,14 @@
                 <h2 class="mb-5">Extracurricular & Leadership Activities</h2>
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
+                        <h3 class="mb-0">Stanford Women in Electrical Engineering (WEE)</h3>
+                    </div>
+                    <div class="flex-shrink-0">
+                        <span class="text-primary">Sep. 2023 – Present</span>
+                    </div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
                         <h3 class="mb-0">
                             <a href="https://www.gongwoo.snu.ac.kr/about-us">Seoul National University College of
                                 Engineering Honor Society
@@ -417,7 +496,6 @@
                     <div class="flex-grow-1">
                         <h3 class="mb-0"><a href="http://guardian.snucse.org/">Seoul National University Security
                                 Research Group (Guardian)</a></h3>
-                        <div class="subheading mb-2">club member</div>
                     </div>
                     <div class="flex-shrink-0">
                         <span class="text-primary">Mar. 2019 - Jul. 2019</span>
