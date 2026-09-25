@@ -11798,6 +11798,14 @@ section.resume-section .resume-section-content {
     width: 100%;
 }
 
+/* Smaller text for publication / workshop entries (section titles keep h2 size) */
+.publication-list {
+    font-size: 0.9rem;
+}
+.publication-list h3 {
+    font-size: 1.5rem;
+}
+
 @media (min-width: 768px) {
     section.resume-section {
         min-height: 100vh;
